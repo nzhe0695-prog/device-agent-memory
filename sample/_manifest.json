@@ -1,0 +1,246 @@
+{
+  "generatedAt": "2026-10-28T08:45:08.835Z",
+  "note": "Body masked: CJK strings -> <cjkN>, numbers -> <numN>, plus IP/URL/credential/PATH. Structure, keys, lengths kept.",
+  "files": [
+    {
+      "file": "journal\\2026-10-23.md",
+      "bytes": 45035,
+      "lines": 1540,
+      "maskedBytes": 33290
+    },
+    {
+      "file": "journal\\2026-10-24.md",
+      "bytes": 73941,
+      "lines": 2851,
+      "maskedBytes": 57306
+    },
+    {
+      "file": "journal\\2026-10-25.md",
+      "bytes": 57224,
+      "lines": 2163,
+      "maskedBytes": 44093
+    },
+    {
+      "file": "journal\\2026-10-26.md",
+      "bytes": 94173,
+      "lines": 3325,
+      "maskedBytes": 66522
+    },
+    {
+      "file": "journal\\2026-10-27.md",
+      "bytes": 75902,
+      "lines": 2566,
+      "maskedBytes": 52471
+    },
+    {
+      "file": "journal\\2026-10-28.md",
+      "bytes": 31030,
+      "lines": 1026,
+      "maskedBytes": 20665
+    },
+    {
+      "file": "memory\\chat\\2026-10-23_s3.txt",
+      "bytes": 847,
+      "lines": 23,
+      "maskedBytes": 550
+    },
+    {
+      "file": "memory\\chat\\2026-10-24_s2.txt",
+      "bytes": 723,
+      "lines": 16,
+      "maskedBytes": 433
+    },
+    {
+      "file": "memory\\chat\\2026-10-24_s3.txt",
+      "bytes": 1593,
+      "lines": 38,
+      "maskedBytes": 1051
+    },
+    {
+      "file": "memory\\chat\\2026-10-25_s2.txt",
+      "bytes": 525,
+      "lines": 16,
+      "maskedBytes": 382
+    },
+    {
+      "file": "memory\\chat\\2026-10-25_s3.txt",
+      "bytes": 1825,
+      "lines": 50,
+      "maskedBytes": 1150
+    },
+    {
+      "file": "memory\\chat\\2026-10-26_s1.txt",
+      "bytes": 2257,
+      "lines": 53,
+      "maskedBytes": 1609
+    },
+    {
+      "file": "memory\\chat\\2026-10-26_s2.txt",
+      "bytes": 3397,
+      "lines": 80,
+      "maskedBytes": 2008
+    },
+    {
+      "file": "memory\\chat\\2026-10-26_s3.txt",
+      "bytes": 4721,
+      "lines": 114,
+      "maskedBytes": 3012
+    },
+    {
+      "file": "memory\\chat\\2026-10-27_s1.txt",
+      "bytes": 3308,
+      "lines": 29,
+      "maskedBytes": 2573
+    },
+    {
+      "file": "memory\\chat\\2026-10-27_s2.txt",
+      "bytes": 4815,
+      "lines": 101,
+      "maskedBytes": 2749
+    },
+    {
+      "file": "memory\\chat\\2026-10-27_s3.txt",
+      "bytes": 7666,
+      "lines": 131,
+      "maskedBytes": 4194
+    },
+    {
+      "file": "memory\\chat\\2026-10-28_s1.txt",
+      "bytes": 2353,
+      "lines": 40,
+      "maskedBytes": 1720
+    },
+    {
+      "file": "memory\\chat\\2026-10-28_s2.txt",
+      "bytes": 5221,
+      "lines": 96,
+      "maskedBytes": 3002
+    },
+    {
+      "file": "memory\\dreams\\2026-10-26.md",
+      "bytes": 456,
+      "lines": 4,
+      "maskedBytes": 223
+    },
+    {
+      "file": "memory\\he.md",
+      "bytes": 704,
+      "lines": 4,
+      "maskedBytes": 296
+    },
+    {
+      "file": "memory\\heat.json",
+      "bytes": 3017,
+      "lines": 1,
+      "maskedBytes": 2175
+    },
+    {
+      "file": "memory\\life.md",
+      "bytes": 1183,
+      "lines": 15,
+      "maskedBytes": 779
+    },
+    {
+      "file": "memory\\manifest.md",
+      "bytes": 1216,
+      "lines": 22,
+      "maskedBytes": 900
+    },
+    {
+      "file": "memory\\memory.db",
+      "bytes": 4096,
+      "skipped": "binary"
+    },
+    {
+      "file": "memory\\persona-grow.md",
+      "bytes": 988,
+      "lines": 22,
+      "maskedBytes": 508
+    },
+    {
+      "file": "memory\\persona.card.md",
+      "bytes": 13813,
+      "lines": 188,
+      "maskedBytes": 7368
+    },
+    {
+      "file": "memory\\qq-digest.md",
+      "bytes": 585,
+      "lines": 20,
+      "maskedBytes": 376
+    },
+    {
+      "file": "memory\\qq-memory.json",
+      "bytes": 231,
+      "lines": 8,
+      "maskedBytes": 193
+    },
+    {
+      "file": "memory\\recap\\2026-10-23.md",
+      "bytes": 812,
+      "lines": 11,
+      "maskedBytes": 433
+    },
+    {
+      "file": "memory\\recap\\2026-10-24.md",
+      "bytes": 969,
+      "lines": 11,
+      "maskedBytes": 367
+    },
+    {
+      "file": "memory\\recap\\2026-10-25.md",
+      "bytes": 786,
+      "lines": 11,
+      "maskedBytes": 309
+    },
+    {
+      "file": "memory\\recap\\2026-10-26.md",
+      "bytes": 1016,
+      "lines": 14,
+      "maskedBytes": 518
+    },
+    {
+      "file": "memory\\recap\\2026-10-27.md",
+      "bytes": 937,
+      "lines": 14,
+      "maskedBytes": 442
+    },
+    {
+      "file": "memory\\recap\\2026-10-28.md",
+      "bytes": 965,
+      "lines": 12,
+      "maskedBytes": 465
+    },
+    {
+      "file": "memory\\sessions\\session.v4.jsonl.zstd",
+      "bytes": 2305570,
+      "skipped": "binary"
+    },
+    {
+      "file": "memory\\stream\\2026-10-26.md",
+      "bytes": 1502,
+      "lines": 52,
+      "maskedBytes": 1496
+    },
+    {
+      "file": "memory\\stream\\2026-10-27.md",
+      "bytes": 4147,
+      "lines": 139,
+      "maskedBytes": 4129
+    },
+    {
+      "file": "memory\\stream\\2026-10-28.md",
+      "bytes": 1348,
+      "lines": 47,
+      "maskedBytes": 1281
+    },
+    {
+      "file": "memory\\why.md",
+      "bytes": 599,
+      "lines": 6,
+      "maskedBytes": 220
+    }
+  ],
+  "totalFiles": 38,
+  "totalBytes": 2761496
+}
