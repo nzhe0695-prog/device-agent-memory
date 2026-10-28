@@ -7,8 +7,9 @@
 ## 读什么
 
 - [`notes/device-agent-memory.md`](notes/device-agent-memory.md) — 正文。七层记忆结构、上下文预算与前缀稳定性、11 例故障（现象 / 根因 / 修复）、适用边界。
-- [`sample/`](sample/README.md) — 记忆文件的**脱敏样本**：结构与字段保留，正文全部掩码。
-- [`tools/sanitize-export.mjs`](tools/sanitize-export.mjs) — 脱敏导出脚本，带自检。
+- [`sample/`](sample/README.md) — 记忆文件的**脱敏样本**：结构与字段保留，正文全部掩码、日期全部粗化。
+- [`notes/data-flow.png`](notes/data-flow.png) — 数据流图（写入 → 提炼 → 读取 → 检索）。
+- `tools/` — 三步脱敏脚本：[`sanitize-export.mjs`](tools/sanitize-export.mjs)（内容掩码）、[`mask-residual-cjk.mjs`](tools/mask-residual-cjk.mjs)（残留单字）、[`coarsen-dates.mjs`](tools/coarsen-dates.mjs)（时间粗化）。
 
 最短路径（只看结论）：
 
@@ -31,12 +32,17 @@
 | 原始 | 替换为 |
 |---|---|
 | 连续中文（≥2 字） | `<cjkN>` |
+| 剩余任何汉字串（含单字，如 他/她/额） | `<cjkN>`（第二遍；说话人先映射为 `user:` / `agent:`） |
 | 5–12 位整数、13 位时间戳 | `<numN>` / `<ts>` |
 | IP / URL / 邮箱 / 手机号 / 密钥 / 本机路径 | 对应占位符 |
+| 日期 `YYYY-MM-DD` / `YYYY/MM/DD` | `day01`…`day08`（保留先后，不保留绝对日期） |
+| 一天内的时刻 `HH:MM(:SS)` | `<t>` |
 
-保留目录结构、Markdown/JSON 字段名、日期、字数桶。自检：导出后重新扫描，若仍出现连续中文、≥6 位整数或 IP 段即失败。
+保留目录结构、Markdown/JSON 字段名、字数桶、行数、字节数（**不含**日期与时刻）。
 
-**注意**：即使掩码，字数分布与时间分布仍可推断活动强度，请勿将本仓库样本当作"完全匿名"的数据使用。
+自检：三步各自重扫，若仍出现连续中文、≥6 位整数、IP 段或真实日期即失败。本次结果：**38 个文件 / 294,465 字节 / 0 汉字 / 0 真实日期**。
+
+**注意**：即使三步处理，字数分布与文件数量仍可推断活动强度；时间是顺序信息（`day01…day08` 保留先后），请勿把本仓库样本当作"完全匿名"的数据使用。
 
 ## 许可
 
