@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0;background:#fff;}
+  text{font-family:"Microsoft YaHei","PingFang SC",sans-serif;}
+  .t{font-size:16px;fill:#1a1a1a;}
+  .ts{font-size:13.5px;fill:#606060;}
+  .tb{font-size:19px;font-weight:600;fill:#111;}
+  .gl{font-size:15.5px;font-weight:600;fill:#7d7d7d;letter-spacing:.5px;}
+  .grp{fill:#fbfbfc;stroke:#dcdcdc;stroke-width:1.5;}
+  .box{fill:#fff;stroke:#c9ced6;stroke-width:1.5;}
+  .boxS{fill:#eef4ff;stroke:#9dbcf3;stroke-width:1.5;}
+  .boxD{fill:#fff8ee;stroke:#f0c289;stroke-width:1.5;}
+  .arw{stroke:#9aa4b2;stroke-width:1.8;fill:none;marker-end:url(#a);}
+  .bus{stroke:#c2c8d2;stroke-width:1.6;fill:none;}
+</style>
+</head>
+<body>
+<svg width="1600" height="980" viewBox="0 0 1600 980" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#9aa4b2"/>
+    </marker>
+  </defs>
+
+  <text class="tb" x="40" y="34">记忆系统的数据流 — 写入 → 提炼 → 读取 → 检索</text>
+
+  <!-- 写入 -->
+  <rect class="grp" x="40" y="54" width="700" height="330"/>
+  <text class="gl" x="62" y="82">① 写入</text>
+
+  <rect class="box"  x="66"  y="100" width="190" height="60"/>
+  <text class="t"  x="86" y="126">通知 / 新消息</text>
+  <text class="ts" x="86" y="146">入向信号</text>
+
+  <rect class="boxS" x="66"  y="188" width="190" height="60"/>
+  <text class="t"  x="86" y="214">loop.mjs 主循环</text>
+  <text class="ts" x="86" y="234">心跳 300s</text>
+
+  <rect class="box"  x="316" y="100" width="200" height="82"/>
+  <text class="t"  x="336" y="126">chat/dayNN_sN.txt</text>
+  <text class="ts" x="336" y="146">原话 · 实时</text>
+  <text class="ts" x="336" y="164">06–12 / 12–18 / 18–06</text>
+
+  <rect class="box"  x="316" y="200" width="200" height="60"/>
+  <text class="t"  x="336" y="226">journal/dayNN.md</text>
+  <text class="ts" x="336" y="246">动作与心跳 · 实时</text>
+
+  <rect class="box"  x="546" y="100" width="170" height="82"/>
+  <text class="t"  x="566" y="126">recap/dayNN.md</text>
+  <text class="ts" x="566" y="146">日报 · 每日</text>
+  <text class="ts" x="566" y="164">上午 / 下午 / 晚间</text>
+
+  <rect class="boxD" x="316" y="286" width="200" height="52"/>
+  <text class="t"  x="336" y="310">life.md</text>
+  <text class="ts" x="336" y="328">要紧度 ≥2 才入档</text>
+
+  <path class="arw" d="M256 130 L 312 130"/>
+  <path class="arw" d="M256 218 L 286 218 L 286 218 L 312 218"/>
+  <path class="arw" d="M516 230 L 542 230 L 542 148 L 542 148"/>
+  <path class="arw" d="M631 182 L 631 282"/>
+
+  <!-- 提炼 -->
+  <rect class="grp" x="780" y="54" width="780" height="330"/>
+  <text class="gl" x="802" y="82">② 提炼（离线任务）</text>
+
+  <rect class="box" x="806" y="100" width="230" height="76"/>
+  <text class="t"  x="826" y="126">persona-grow.md</text>
+  <text class="ts" x="826" y="146">说话习惯 · 周 · 988 B</text>
+  <text class="ts" x="826" y="164">依据近 4 天存档</text>
+
+  <rect class="box" x="806" y="196" width="230" height="60"/>
+  <text class="t"  x="826" y="222">he.md</text>
+  <text class="ts" x="826" y="242">对方画像 · 日 · 704 B</text>
+
+  <rect class="box" x="1076" y="100" width="200" height="76"/>
+  <text class="t"  x="1096" y="126">why.md</text>
+  <text class="ts" x="1096" y="146">交互规律 · 周</text>
+  <text class="ts" x="1096" y="164">599 B</text>
+
+  <rect class="box" x="1076" y="196" width="200" height="60"/>
+  <text class="t"  x="1096" y="222">派生状态</text>
+  <text class="ts" x="1096" y="242">heat / stream / dreams</text>
+
+  <rect class="boxD" x="806" y="286" width="470" height="52"/>
+  <text class="t"  x="826" y="311">超 30 天大事记 → 压缩为 ≤46 字结论</text>
+  <text class="ts" x="826" y="329">压缩而非删除，保留可辨识度</text>
+
+  <path class="arw" d="M716 141 L 802 138"/>
+  <path class="arw" d="M716 226 L 760 226 L 760 210 L 802 210"/>
+  <path class="arw" d="M760 226 L 760 138 L 1072 138"/>
+  <path class="arw" d="M760 226 L 760 226 L 1072 226"/>
+  <path class="arw" d="M1176 256 L 1176 282"/>
+
+  <!-- 读取 -->
+  <rect class="grp" x="40" y="416" width="1000" height="360"/>
+  <text class="gl" x="62" y="444">③ 读取 —— 每轮拼 prompt：稳定块在前，动态块在后</text>
+
+  <!-- 左列：稳定 -->
+  <rect class="box" x="66" y="462" width="220" height="42"/>
+  <text class="t" x="84" y="489">persona.md　3.7K</text>
+  <rect class="box" x="66" y="512" width="220" height="42"/>
+  <text class="t" x="84" y="539">persona-grow.md　988 B</text>
+  <rect class="box" x="66" y="562" width="220" height="42"/>
+  <text class="t" x="84" y="589">he.md / why.md</text>
+  <rect class="box" x="66" y="612" width="220" height="42"/>
+  <text class="t" x="84" y="639">life.md（近 20 条）</text>
+  <rect class="box" x="66" y="662" width="220" height="42"/>
+  <text class="t" x="84" y="689">recap（近 2 天）</text>
+  <text class="ts" x="66" y="736">稳定块（顺序固定）</text>
+
+  <!-- 中列：动态 -->
+  <rect class="box" x="360" y="462" width="220" height="42"/>
+  <text class="t" x="378" y="489">chat 窗口 8,000 字</text>
+  <rect class="box" x="360" y="512" width="220" height="42"/>
+  <text class="t" x="378" y="539">当前消息</text>
+  <rect class="box" x="360" y="562" width="220" height="42"/>
+  <text class="t" x="378" y="589">联想 ≤3 条 + 心境</text>
+  <rect class="box" x="360" y="612" width="220" height="42"/>
+  <text class="t" x="378" y="639">时间戳（放最后）</text>
+  <text class="ts" x="360" y="690">动态块（每轮变化）</text>
+
+  <!-- 汇流 -->
+  <!-- 稳定列汇流：竖线 x=316，从 y=483 到 683；在 y=608 的缝隙处横出 -->
+  <path class="bus" d="M286 483 L 316 483 M286 533 L 316 533 M286 583 L 316 583 M286 633 L 316 633 M286 683 L 316 683"/>
+  <path class="bus" d="M316 483 L 316 712 L 620 712 L 620 583"/>
+  <!-- 动态列汇流：竖线 x=600，从 483 到 633 -->
+  <path class="bus" d="M580 483 L 600 483 M580 533 L 600 533 M580 583 L 600 583 M580 633 L 600 633"/>
+  <path class="bus" d="M600 483 L 600 633"/>
+  <path class="arw" d="M620 583 L 642 583"/>
+  <path class="arw" d="M600 583 L 642 583"/>
+
+  <rect class="boxS" x="646" y="540" width="180" height="86"/>
+  <text class="t"  x="666" y="568">prompt</text>
+  <text class="ts" x="666" y="590">≈ 7.7K token</text>
+  <text class="ts" x="666" y="610">in / hit / miss / out</text>
+
+  <rect class="box" x="860" y="540" width="150" height="86"/>
+  <text class="t"  x="880" y="568">模型</text>
+  <text class="ts" x="880" y="590">输出 ≤ 600</text>
+  <text class="ts" x="880" y="610">token / 轮</text>
+
+  <path class="arw" d="M826 583 L 856 583"/>
+  <text class="ts" x="66" y="762">少一处抖动，就多一轮命中：同一套系统，日记窗口 20K→8K、稳定块前置之后，单轮输入 17K → 7.7K token</text>
+
+  <!-- 检索（右） -->
+  <rect class="grp" x="1080" y="416" width="480" height="360"/>
+  <text class="gl" x="1102" y="444">④ 检索 / 巩固（按需）</text>
+
+  <rect class="box" x="1106" y="462" width="230" height="72"/>
+  <text class="t"  x="1126" y="488">recall &lt;词 / 时段&gt;</text>
+  <text class="ts" x="1126" y="508">全量扫 chat + qq-memory</text>
+  <text class="ts" x="1126" y="526">0.18s / 13 文件</text>
+
+  <rect class="box" x="1106" y="546" width="230" height="72"/>
+  <text class="t"  x="1126" y="572">recount &lt;topic&gt;</text>
+  <text class="ts" x="1126" y="592">回灌旧原文，用自己的话重讲</text>
+  <text class="ts" x="1126" y="610">允许“记不清”</text>
+
+  <rect class="box" x="1106" y="630" width="230" height="72"/>
+  <text class="t"  x="1126" y="656">夜间巩固</text>
+  <text class="ts" x="1126" y="676">压日报 / 热度衰减 / 做梦</text>
+
+  <rect class="box" x="1358" y="546" width="180" height="72"/>
+  <text class="t"  x="1378" y="572">热度</text>
+  <text class="ts" x="1378" y="592">命中 +1</text>
+  <text class="ts" x="1378" y="610">7 天未命中 −50%</text>
+
+  <path class="arw" d="M1010 583 L 1050 583 L 1050 498 L 1102 498"/>
+  <path class="arw" d="M1336 582 L 1354 582"/>
+  <path class="arw" d="M1221 618 L 1221 626"/>
+
+  <text class="ts" x="1106" y="726">检索命中 → 注入 ≤3 条历史片段</text>
+</svg>
+</body>
+</html>

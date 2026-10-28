@@ -49,6 +49,8 @@
 
 ### 1.5 数据流
 
+![记忆系统的数据流：写入 → 提炼 → 读取 → 检索](data-flow.png)
+
 ```mermaid
 flowchart TD
   subgraph 写入

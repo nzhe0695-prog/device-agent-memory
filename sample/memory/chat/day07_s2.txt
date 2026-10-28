@@ -1,0 +1,100 @@
+# day07 seg 2 <t>–<t>
+<t>	user:<cjk14>
+<t>	agent:<cjk3>，<cjk8>｜<cjk7>，<cjk5>
+<t>	user:<cjk7>，<cjk5>..
+<t>	agent:<cjk2>，<cjk5>｜<cjk3>，<cjk15>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	agent:<cjk3>，<cjk8>｜<cjk12>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	agent:<cjk2>，<cjk8>｜<cjk12>，<cjk6>
+<t>	user:<cjk11>
+<t>	agent:<cjk4> <cjk8>｜<cjk5> <cjk6>
+<t>	user:<cjk6>，<cjk6>
+<t>	user:<cjk6>，<cjk6>
+<t>	user:<cjk6>，<cjk6>
+<t>	user:sh <PATH>
+<t>	user:<cjk1>，<cjk8>，<cjk6>
+<t>	user:<cjk11>
+<t>	user:<cjk3>，<cjk10>
+<t>	agent:<cjk3> <cjk5>｜<cjk3> <cjk5>｜<cjk5> <cjk7>
+<t>	user:<cjk5>
+<t>	agent:<cjk3> <cjk4>｜<cjk2> <cjk6>
+<t>	user:<cjk6>，<cjk7>
+<t>	agent:<cjk1>，<cjk7>，<cjk3>
+<t>	agent:<cjk7>，<cjk7>
+<t>	user:<cjk2>，<cjk7>
+<t>	agent:<cjk5>，<cjk3>
+<t>	user:<cjk3>，<cjk3>
+<t>	agent:<cjk3> <cjk5>｜<cjk7>
+<t>	user:<cjk14>
+<t>	user:<cjk14>
+<t>	agent:<cjk11>｜<cjk8>
+<t>	user:<cjk14>
+<t>	user:<cjk14>
+<t>	user:<cjk14>
+<t>	user:<cjk2>
+<t>	user:<cjk7>
+<t>	agent:<cjk2> <cjk6> <cjk6>
+<t>	agent:<cjk4> <cjk7> <cjk7>
+<t>	user:<cjk2>
+<t>	user:<cjk7>
+<t>	user:<cjk5>，<cjk2>QQ<cjk6>
+<t>	user:<cjk2>
+<t>	user:<cjk7>
+<t>	user:<cjk3>
+<t>	user:<cjk5>
+<t>	user:<cjk2>
+<t>	user:<cjk7>
+<t>	user:<cjk5>，<cjk2>QQ<cjk6>
+<t>	user:<cjk3>
+<t>	user:<cjk5>
+<t>	user:<cjk3>
+<t>	user:<cjk5>
+<t>	user:<cjk3>
+<t>	user:<cjk5>
+<t>	agent:<cjk5> <cjk5>｜<cjk2> <cjk4>
+<t>	user:<cjk3>
+<t>	user:<cjk5>
+<t>	user:<cjk3>
+<t>	user:<cjk5>
+<t>	user:<cjk3>
+<t>	user:<cjk5>
+<t>	agent:<cjk3> <cjk6>
+<t>	user:<cjk3>
+<t>	user:<cjk5>
+<t>	user:<cjk3>
+<t>	user:<cjk2>
+<t>	user:<cjk2>
+<t>	user:<cjk3>
+<t>	user:<cjk5>
+<t>	user:<cjk3>
+<t>	user:<cjk2>
+<t>	user:<cjk2>
+<t>	agent:<cjk2> <cjk2>｜<cjk8>｜<cjk4>，<cjk8>
+<t>	user:<cjk5>
+<t>	user:<cjk3>
+<t>	user:<cjk2>
+<t>	user:<cjk2>
+<t>	agent:<cjk1>，<cjk9>
+<t>	agent:<cjk5>，<cjk7>
+<t>	user:<cjk5>
+<t>	user:<cjk4>
+<t>	agent:<cjk2>｜<cjk3>，<cjk4>｜<cjk10>
+<t>	user:<cjk3>，<cjk7>，<cjk6>.&#9;

@@ -13,9 +13,9 @@
 ③ <cjk8>
 - <cjk3>“<cjk4>”，<cjk2>“<cjk9>”。
 - <cjk2>“<cjk4>”，<cjk2>“<cjk9>”。
-- <cjk9>“爹”，<cjk6>。
+- <cjk9>“<cjk1>”，<cjk6>。
 
 ④ <cjk7>
 - <cjk2>：<cjk11>，<cjk7>。
-- <cjk2>：<cjk5>、说“<cjk5>”，<cjk4>。
+- <cjk2>：<cjk5>、<cjk1>“<cjk5>”，<cjk4>。
 - <cjk2>：<cjk8>，<cjk5>。

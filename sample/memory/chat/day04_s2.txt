@@ -1,0 +1,15 @@
+# day04 seg 2 <t>–<t>
+<t>	user:<cjk5>
+<t>	user:<cjk9>
+<t>	user:<cjk5>，<cjk5>
+<t>	user:<cjk8>
+<t>	user:<cjk2>，<cjk5>
+<t>	user:<cjk1>，<cjk2>
+<t>	user:<cjk10>
+<t>	user:What(5<cjk4>：[<cjk4>]
+<t>	user:？
+<t>	user:What(2<cjk4>：<cjk12>
+<t>	user:What(2<cjk4>：<cjk4>
+<t>	user:<cjk3>,<cjk9>，<cjk14>
+<t>	user:What(2<cjk4>：<cjk10>
+<t>	user:What<cjk1>4<cjk6>【<cjk7>】：<cjk8>

@@ -1,0 +1,28 @@
+# day07 seg 1 <t>–<t>
+<t>	user:🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚，<cjk4>，<cjk7>
+<t>	user:&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;，<cjk4>，<cjk7>
+<t>	user:🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚🍚，<cjk4>，<cjk7>
+<t>	user:&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;&#<num6>;，<cjk4>，<cjk7>
+<t>	agent:<cjk3>，<cjk5>
+<t>	agent:<cjk8>，<cjk5>
+<t>	agent:<cjk3> <cjk5>
+<t>	agent:<cjk3>，<cjk5>？
+<t>	user:<cjk8>
+<t>	user:<cjk8>
+<t>	agent:<cjk3>，<cjk7>，<cjk7>
+<t>	agent:<cjk3>，<cjk4>
+<t>	agent:<cjk5>，<cjk9>｜<cjk2>，<cjk9>
+<t>	user:<cjk5>，<cjk6>
+<t>	agent:<cjk5>，<cjk6>
+<t>	user:<cjk10>，<cjk5>，<cjk3>
+<t>	agent:<cjk3>，<cjk8>｜<cjk10>
+<t>	user:<cjk9>，<cjk11>
+<t>	user:<cjk11> <cjk5>，<cjk5>
+<t>	user:<cjk8>
+<t>	user:<cjk5>，<cjk6>
+<t>	user:<cjk10>，<cjk5>，<cjk3>
+<t>	user:<cjk9>，<cjk11>
+<t>	user:<cjk3>
+<t>	agent:<cjk3>，<cjk3>｜<cjk6>，<cjk4>｜<cjk7>，<cjk5>｜<cjk5>，<cjk4>，<cjk4>
+<t>	user:<cjk7>..
+<t>	agent:<cjk7>｜<cjk7>｜<cjk3>，<cjk4>

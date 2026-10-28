@@ -1,0 +1,49 @@
+# day05 seg 3 <t>–<cjk2><t>
+<t>	user:What(3<cjk4>：<cjk13>
+<t>	user:<cjk3>，<cjk23>
+<t>	user:<cjk3>，<cjk23>
+<t>	user:<cjk7>
+<t>	user:<cjk4>
+<t>	user:<cjk4>
+<t>	user:<cjk9>
+<t>	user:<cjk10>
+<t>	user:<cjk4>☺️
+<t>	user:<cjk4>☺️
+<t>	user:What(2<cjk4>：<cjk2>
+<t>	user:<cjk2>
+<t>	user:<cjk7>
+<t>	user:<cjk1>，<cjk8>
+<t>	user:<cjk7>
+<t>	user:<cjk2>
+<t>	user:<cjk5>
+<t>	user:<cjk13>
+<t>	user:<cjk2>
+<t>	user:<cjk7>
+<t>	user:What(2<cjk4>：<cjk3>
+<t>	user:<cjk4>，<cjk4>..
+<t>	user:<cjk4>，<cjk4>..
+<t>	user:<cjk4>，<cjk4>..
+<t>	user:<cjk2>
+<t>	user:<cjk2>
+<t>	user:<cjk2>
+<t>	user:<cjk2>
+<t>	user:<cjk2>
+<t>	user:<cjk2>
+<t>	user:<cjk5> <cjk8> 23:
+<t>	user:<cjk2>
+<t>	user:<cjk8>
+<t>	user:<cjk4>，<cjk6>
+<t>	user:<cjk8>
+<t>	user:<cjk5> <cjk8> 23:0X
+<t>	user:<cjk4>，<cjk6>
+<t>	user:<cjk8>
+<t>	user:<cjk2>
+<t>	user:<cjk4>
+<t>	user:OK，<cjk7>
+<t>	user:<cjk3> <cjk6>&#10;<cjk2>？
+<t>	user:<cjk5>
+<t>	user:<cjk6>
+<t>	user:<cjk6>
+<t>	user:<cjk4>
+<t>	user:<cjk6>，<cjk4>
+<t>	user:<cjk13>
